@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "433052906129",
+    "firebase_url": "https://dcnassign.firebaseio.com",
+    "project_id": "dcnassign",
+    "storage_bucket": "dcnassign.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433052906129:android:8b39c8b83e5235fe878530",
+        "android_client_info": {
+          "package_name": "com.example.locationtrail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433052906129-3qcsk112nhvmvfaq0hob3s2n6me76aeu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.locationtracking",
+            "certificate_hash": "c05c2ef437d13f23da076cc4a45eb504ead1113b"
+          }
+        },
+        {
+          "client_id": "433052906129-dqo0pkfqeg5k253dahb0hglh72l5esd9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_a2WQSO4ErUfRmHniSaGgMMDWDeTel3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433052906129-dqo0pkfqeg5k253dahb0hglh72l5esd9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

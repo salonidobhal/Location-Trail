@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Otp_Activity"
+    android:layout_gravity="center">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="365dp"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="data3.json"
+        app:lottie_loop="true" />
+
+    <EditText
+        android:id="@+id/editTextcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="220dp"
+        android:autofillHints=""
+        android:background="@drawable/edit_round"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/otp"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/buttonSignIn"
+        android:layout_width="227dp"
+        android:layout_height="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="114dp"
+        android:background="@drawable/button_round"
+        android:text="@string/create_account"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextcode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="214dp"
+        android:outlineSpotShadowColor="@color/colorPrimaryDark"
+        android:visibility="gone" />
+
+
+
+</RelativeLayout>
